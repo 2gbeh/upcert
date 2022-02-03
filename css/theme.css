@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+/* #19865C; */
+footer .option vr {
+	background-color: #0093DD;
+}	
+	
+header .logo a, 
+footer .option h4,
+footer .option i, 
+main.index labe a,
+main.portal section ul li a, 
+main.list table.pager a {
+	color: #0093DD;
+}
+
+header .menu a, 
+main.index label x,
+main.portal section td var, 
+main.portal section ul li sup, 
+main.list ul.courses li a {
+	color: #D81B60;
+}
+	
+	
+	
+	

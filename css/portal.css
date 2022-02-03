@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+main.portal {
+
+}
+main.portal .wrap {
+	margin:0 auto;
+	width:600px;
+	border:solid thi;
+}
+
+main.portal h1 {
+	font-weight:400;
+}
+main.portal section h2 {
+	padding:15px 10px 0;
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:16px;
+}
+main.portal section h2 a {
+	float:right;
+	padding:10px 15px;
+	font-size:14px;
+	font-weight:400px;
+	background-color:#090;
+	text-transform:none;
+	color:#FFF;
+	border-radius:20px;
+	border:0;	
+}
+
+main.portal .passport {
+	margin:20px 0 10px;
+	background-image:url("../img/passport_alt.png");
+	background-image:url("../uploads/runo_pass_alt.png");	
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;
+	width:100px;
+	height:100px;
+	border-radius:100%;
+	display:inline-block;
+	box-shadow:0 1px 2px #999;		
+}	
+main.portal .contact {
+	margin:5px 0 10px;
+	font-size: 16px;	
+}	
+main.portal .contact span {
+	display:inline-block;
+}
+main.portal .contact b {
+	font-weight:400;
+	color: #888;
+}
+main.portal .contact a:hover {
+	text-decoration:underline;
+}
+
+main.portal section table {
+	width:400px;	
+	border-collapse:collapse;
+	font-size: 14px;
+}
+
+main.portal section th {
+	padding:5px 10px;
+	text-align:left;
+	font-weight:400;
+	color: #888;	
+}
+main.portal section td {
+	text-align:left;
+}
+main.portal section td var {
+	font-style:normal;
+}
+main.portal section td a {
+	text-decoration:underline;
+}
+	
+	
+main.portal section ul {
+	padding:0;
+	margin:0;
+	margin-top:10px;
+	list-style-type:none;
+	text-align:left;	
+	display:block;
+	border:solid thi;	
+}
+main.portal section ul li {
+	margin:0 20px;
+	display:inline-block;
+	border:solid thi;
+}		
+main.portal section ul li img {
+	margin-bottom:5px;
+	width:40px;
+	display:block;	
+}	
+main.portal section ul li a {
+	text-decoration:underlin;
+	font-size:13px;
+}	
+main.portal section ul li sup {
+	font-size: 12px;
+}	
+	
+	

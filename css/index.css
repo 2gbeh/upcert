@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+main.index {
+	margin-top:150px;}
+main.index .form {
+	position:relative;
+}
+main.index .form i {
+	top:52px;
+	left:140px;	
+	position: absolute;
+	font-size:18px;
+	cursor:pointer;
+	background-color:rd;
+}
+main.index label {
+	margin-right:20px;
+	display:block;
+	font-size:13px;
+	font-style:italic;
+	text-decoration:underline;
+	display:inline-block;
+}
+main.index div label:last-child {
+	margin-right:0;}
+main.index label a {
+	cursor:pointer;
+}
+main.index input {
+	color:#333;
+	margin:30px 0 10px;
+	padding:20px 40px;
+	width:75%;
+	border:none;
+	font-family:inherit;
+	text-align:center;
+	border-radius:50px;
+	border:solid thin #888;
+  -webkit-transition:all .5s; /* Safari */
+  transition:all .5s;
+	display:inline-block;	
+}
+main.index input:focus {
+	background-color:#FFC;
+	width:80%;
+}
+main.index h1 {
+	margin: 5px auto 20px;
+	line-height:1.3;
+	font-weight:bol;
+	color:#e11;
+}
+main.index h2 {
+	font-size: 22px;
+	max-width: 500px;
+	margin: 5px auto 20px;
+	line-height:1.3;
+	font-weight:bol;
+}
+main.index article {
+	font-size: 16px;
+	font-weight:350;
+	line-height: 20px;
+	max-width: 550px;
+	margin: 15px auto 0;
+	color: #555;
+}
+main.index article b {
+	font-weight: normal;
+	display:inline-block;	
+}
+main.index article a {
+	display:inline-block;
+	color:#333;
+	font-weight:400;	
+}
+main.index article sup {
+	font-size: 10px;
+}
+
+
+

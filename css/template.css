@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #555;	
+}
+
+.u-clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+header {
+	padding: 20px 10px 10px;
+	border-bottom: 1px solid #efefef;
+	font-size:14px;	
+}
+header .logo {
+	float: left;
+}
+header .logo h2 {
+	font-weight: 700;
+	margin-top: 0px;
+	text-transform:uppercas;
+}
+header .menu {
+	float: right;
+	margin-top: 7px;
+}
+header .menu p {
+	font-size: 14px;
+}
+header .menu b {
+	font-weight: bold;
+	display:inline-block;	
+}
+
+footer {
+	padding: 25px 10px;
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+	width: 960px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	border-top: 1px solid #efefef;
+	font-size:14px;	
+}
+footer .option {
+	float: left;
+	width: 33.33%;
+	box-sizing: border-box;
+	padding-right: 5px;
+}
+footer .option var {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #d6d6d6;
+	border-radius: 100%;
+	text-align:center;
+	font-style:normal;
+	float: left;
+	margin-right: 15px;
+	display:block;
+	box-shaow:0 1px 1px #CCC;	
+}
+footer .option i {
+	padding-top:14px;
+	color: #888;
+	font-size:24px;
+	display:block;
+}
+footer .option .label {
+	display: table;
+}
+footer .option h4 {
+	font-size: 16px;
+}
+footer .option p {
+	font-weight: 300;
+	padding-top: 3px;
+	color: #555;
+}
+footer address {
+	position:relative;
+	width:100%;
+	bottom: -15px;	
+	display:block;
+	margin:10px 0;
+	text-align:center;
+	font-style:normal;
+}
+footer address a {
+	font-weight:normal;
+	text-decoration:underlin;
+}

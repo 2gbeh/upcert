@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+main.list {
+
+}
+main.list .wrap {
+	margin:0 auto;
+	width:600px;
+	border:solid thi;
+}
+
+main.list table.pager {
+	padding:0;
+	margin:10px 0;
+	border-collapse:collapse;
+	width:100%;
+}
+main.list table.pager  tr td {
+	width:50%;
+	font-weight:400;
+}
+main.list table.pager a {
+	cursor:pointer;
+	display:inline-block;
+}
+main.list table.pager i {
+	margin:0 5px;
+	font-style:normal;
+	font-size:36px;
+	line-height:0.4;
+	display:inline-block;
+}
+main.list table.pager i.left {
+	float:left;
+}
+main.list table.pager i.right {
+	float:right;
+}
+
+main.list ul.courses {
+	padding:0;
+	margin:s 0;
+	list-style-type:none;
+}
+main.list ul.courses li {
+	color:#333;
+	font-weight:300;	
+	display:block;
+}
+
+main.list ul.courses table {
+	padding:0;
+	margin:0;
+	border-collapse:collapse;
+	width:100%;
+}
+main.list ul.courses table tr {
+	border-bottom:solid thin #eee;
+}
+main.list ul.courses table td:first-child, 
+main.list ul.courses table td:last-child {
+	width:1px;
+}
+main.list ul.courses table td {
+	text-align:left;
+	padding:5px;
+}
+
+main.list ul.courses li .thumb {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;	
+	width:35px;
+	height:35px;
+	border-radiu:100%;
+	box-shadow:0 1px 1px #CCC;	
+	display:inline-block;}
+main.list ul.courses li .title {
+	display:block;
+}
+main.list ul.courses li .subtitle {
+	display:none;
+}
+main.list ul.courses li a {
+	display:inline-block;
+}
+
+footer {
+	position:relative;}
+
+
+
+
