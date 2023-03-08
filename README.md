@@ -1,2 +1,2 @@
-# up-cert
+# upcert
 Online Certificate Storage &amp; Validation
